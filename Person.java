@@ -1,6 +1,8 @@
 /**
  * Person class with name and age.
  */
+
+
 public class Person {
     /** Stores name.
     */
@@ -8,7 +10,7 @@ public class Person {
     /** Stores age.
     */
     private int age;
-
+    private static final int adultAge = 18;
     /**
      * Constructor for Person.
      *
@@ -26,7 +28,7 @@ public class Person {
      * @return true if under 18, false if not
      */
     public boolean isMinor() {
-        return age < 18;
+        return age < adultAge;
     }
 
     /**
