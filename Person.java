@@ -2,18 +2,22 @@
  * Person class with name and age.
  */
 public class Person {
+    /** Stores name.
+    */
     private String name;
+    /** Stores age.
+    */
     private int age;
 
     /**
      * Constructor for Person.
      *
-     * @param name the person's name
-     * @param age the person's age
+     * @param nameP the person's name
+     * @param ageP the person's age
      */
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
+    public Person(final String nameP, final int ageP) {
+        this.name = nameP;
+        this.age = ageP;
     }
 
     /**

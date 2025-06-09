@@ -51,7 +51,8 @@ public final class Main {
                     String name = parts[0].trim();
 
                     try {
-                        Person person = new Person(name, Integer.parseInt(parts[1].trim()));
+                        Person person = new Person(name,
+                         Integer.parseInt(parts[1].trim()));
 
                         String result;
                         if (person.isMinor()) {
@@ -74,7 +75,8 @@ public final class Main {
             System.out.println("Output written to output.txt");
 
         } catch (FileNotFoundException e) {
-            System.out.println("Error: File \"" + inputFileName + "\" not found.");
+            System.out.println("Error: File \""
+             + inputFileName + "\" not found.");
         } catch (IOException e) {
             System.out.println("Error writing to output.txt.");
         }

@@ -4,5 +4,4 @@ Edgar, 45
 Shawn, 26
 Paul, 19
 Hello, Ms Raffin
-35, 29
 Nancy 14
